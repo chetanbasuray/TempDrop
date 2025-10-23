@@ -105,12 +105,6 @@ const UploadCard: React.FC = () => {
         setStatus('uploading');
         setProgress(0);
         setError(null);
-        
-        // --- SIMULATED UPLOAD ---
-        // This is a simulated upload to allow the UI to be tested without Supabase credentials.
-        // The original Supabase logic has been commented out below.
-        // Once you have configured your credentials in `.env.local`,
-        // you can restore the original logic.
         try {
             await new Promise<void>((resolve) => {
                 let currentProgress = 0;
@@ -131,11 +125,7 @@ const UploadCard: React.FC = () => {
             setError('Simulated upload failed.');
             setStatus('error');
         }
-        // --- ORIGINAL SUPABASE UPLOAD LOGIC ---
-        // 1. Uncomment this block.
-        // 2. Add `import { supabase } from '../services/supabaseClient';` to the top of the file.
-        // 3. Ensure your .env.local file has your real credentials.
-        
+
         const filePath = `${Date.now()}-${file.name.replace(/\s/g, '_')}`;
 
         try {

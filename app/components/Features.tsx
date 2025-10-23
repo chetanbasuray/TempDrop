@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string }> = ({ icon, title, description }) => (
