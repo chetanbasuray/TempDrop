@@ -70,7 +70,7 @@ Every push to the main branch triggers a new build.
 | Phase | Description | Status |
 |--------|-------------|--------|
 | v0.1 | Initial Next.js + Supabase setup and Vercel deployment | ✅ |
-| v0.2 | Implement file upload and storage | 🔜✨ |
+| v0.2 | Implement file upload and storage | ✅ |
 | v0.3 | Add self-destruct file rules | ⌛ |
 | v0.4 | Public file view and download tracking | ⌛ |
 | v0.5 | Optional user authentication | ⌛ |
