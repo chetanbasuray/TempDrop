@@ -23,7 +23,7 @@ A simple, privacy-focused file upload and sharing service built with Next.js, Ty
 
 1. Clone the Repository
 
-   git clone <https://github.com/><your-username>/temp-drop.git
+   git clone <https://github.com/your-username/temp-drop.git>
    cd temp-drop
 
 2. Install Dependencies
@@ -36,6 +36,7 @@ A simple, privacy-focused file upload and sharing service built with Next.js, Ty
 
    NEXT_PUBLIC_SUPABASE_URL=your-supabase-url  
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+   SUPABASE_SERVICE_ROLE_KEY=your-service-key
 
    Do not commit `.env.local`.
 
