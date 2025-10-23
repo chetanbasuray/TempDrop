@@ -76,3 +76,16 @@ Every push to the main branch triggers a new build.
 | v0.5 | Optional user authentication | ⌛ |
 
 ---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome.  
+Feel free to open a pull request or file an issue to suggest improvements or report bugs.
+
+1. Fork this repository  
+2. Create your feature branch (`git checkout -b feature/your-feature`)  
+3. Commit your changes (`git commit -m 'Add your feature'`)  
+4. Push to the branch (`git push origin feature/your-feature`)  
+5. Open a Pull Request
+
+---
